@@ -1,0 +1,14 @@
+.quotes-container {
+    
+    padding: 20px;
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #2C2C2C; /* Gunmetal */
+    color: #B0B0B0; /* Light Gray */
+}
+

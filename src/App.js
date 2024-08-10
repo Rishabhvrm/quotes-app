@@ -1,14 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.Module.css";
+import { Quotes } from "./Quotes";
+import { Header } from "./Header";
+import { Footer } from "./Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <p> I bled that night,</p>
-       <p> And I don't bleed.</p>
-       <p>Movie: Steve Jobs (2015)</p>
-      </header>
+    <div>
+      <Header />
+      <Quotes />
+      <Footer />
+      
     </div>
   );
 }

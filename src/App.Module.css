@@ -1,0 +1,8 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #333333; /* Charcoal */
+    color: #F5F5F5; /* White Smoke */
+    font-family: serif;
+}

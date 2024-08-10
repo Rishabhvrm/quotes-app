@@ -1,0 +1,25 @@
+.quote-container {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 15px;
+    border-top-left-radius: 0px;
+    border-radius: 10px;
+    max-width: 700px;
+    text-align: center;
+}
+
+.quote-text {
+    font-size: 130%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10   px;
+    border-bottom: 1px solid #444444; /* Subtle separator */
+    padding: 10px;
+}
+
+.quote-author {
+    font-size: 100%;
+    color: rgb(204, 204, 204);
+  }
