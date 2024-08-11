@@ -1,5 +1,4 @@
 import React from "react";
-import { TypeWriter } from "./TypeWriter";
 
 const headerStyle = {
   backgroundColor: "#333333" /* Charcoal */,
@@ -19,7 +18,6 @@ export function Header() {
         <h1>Quotes</h1>
       </header>
       <div align="right">
-        {/* <TypeWriter /> */}
       </div>
     </div>
   );
