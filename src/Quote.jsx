@@ -1,17 +1,20 @@
 import React from "react";
-import "./Quote.Module.css";
+import styles from "./Quote.module.css";
 
-
-const linkStyle = {
-    color: 'white', // Set the text color
-    textDecoration: 'none', // Remove underline
-  };
 export function Quote({ text, author, source, sourceLink }) {
   return (
-    <div className="quote-container">
-      <p className="quote-text">{text}</p>
-      <p className="quote-author">- {author},
-        <a href={sourceLink} target="_blank" rel="noopener noreferrer" style={linkStyle}>
+    <div className={styles.quoteContainer}>
+      <p className={styles.quoteText}>
+        <span>{text}</span>
+      </p>
+      <p className={styles.quoteAuthor}>
+        - {author},
+        <a
+          href={sourceLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.linkStyle}
+        >
           <em> {source}</em>
         </a>
       </p>

@@ -1,11 +1,11 @@
 import React from "react";
 import { Quote } from "./Quote";
-import "./Quotes.Module.css";
+import styles from "./QuoteList.module.css";
 import quotesData from "./data/quotes-data.json";
 
-export function Quotes() {
+export function QuoteList() {
   return (
-    <div className="quotes-container">
+    <div className={styles.quotesContainer}>
       {quotesData.map((quote, index) => (
         <Quote
           key={index}

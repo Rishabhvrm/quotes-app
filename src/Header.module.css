@@ -1,0 +1,58 @@
+.header {
+  color: #f5f5f5; /* White Smoke */
+  padding: 0.4%;
+  font-family: cursive;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: #222222;
+  align-items: center; /* Center vertically */
+  /* padding: 0 5% 0 5%; */
+  border-bottom: 2px solid #ece1fa;
+}
+
+.header2 {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: #333333; /* Charcoal */
+  width: 60%;
+  height: 100%;
+  text-align: center;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  font-size: 230%;
+  font-weight: bold;
+  justify-content: center; /* Center horizontally */
+  align-items: baseline; /* Center vertically */
+  color: #f5f5f5; /* White Smoke */
+  padding: 2% 0 1% 0;
+  color: hsl(33, 55%, 92%);
+  cursor: pointer;
+  /* backdrop-filter: blur(9px); */
+}
+
+.button {
+  display: inline-flex;
+  font-family: inherit;
+  font-size: inherit;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #222222;
+  color:hsl(33, 55%, 92%);
+  /* color:hsl(20, 5%, 11%); */
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #333333;
+}

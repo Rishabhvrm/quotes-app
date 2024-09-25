@@ -1,29 +1,59 @@
-.quote-container {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    margin: 15px;
-    border-top-left-radius: 0px;
-    border-radius: 10px;
-    max-width: 700px;
-    text-align: center;
-    transition: background-color 0.3s ease; /* Smooth transition */
-}
-.quote-container:hover {
-    background-color: #3c3c3c70; /* Gunmetal */
+/* @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;700&display=swap"); */
+/* @import url('https://fonts.googleapis.com/css2?family=Spirax&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Spirax&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Spirax&display=swap"); */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Spirax&display=swap');
+
+.quoteContainer {
+  padding: 1% 5% 1% 5%;
+  margin: 5px;
+  border-top-left-radius: 0px;
+  border-radius: 10px;
+  max-width: 700px;
+  text-align: center;
+  transition: background-color 1s ease; /* Smooth transition */
 }
 
-.quote-text {
-    font-size: 130%;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-bottom: 10   px;
-    border-bottom: 1px solid #444444; /* Subtle separator */
-    padding: 10px;
+.quoteContainer:hover {
+  background-color: #3c3c3c70; /* Gunmetal */
+  transform: scale(1.05);
 }
 
-.quote-author {
-    font-size: 100%;
-    color: rgb(204, 204, 204);
-  }
+.quoteText {
+  /* font-family: 'Playfair Display', serif; */
+  /* font-family: 'Dancing Script', serif; */
+  /* font-family: "Grey Qo", cursive; */
+  font-family: "Playfair Display", system-ui;
+  font-size: 120%;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom: 1px solid #444444; /* Subtle separator */
+  padding: 10px;
+  color: hsl(0, 0%, 75%);
+  transition: transform 1s ease; /* Smooth transition */
+}
+
+.quoteAuthor {
+  font-size: 100%;
+  color: rgb(204, 204, 204);
+  transition: transform 1s ease; /* Smooth transition */
+}
+
+p span {
+  transition: 0.5s ease-out;
+}
+
+p:hover span {
+  margin-left: 5px;
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+
+.linkStyle {
+  color: white; /* Set the text color */
+  text-decoration: none; /* Remove underline */ 
+}
